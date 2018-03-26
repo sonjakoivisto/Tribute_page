@@ -1,0 +1,93 @@
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 250%;
+    color: black;
+    text-transform: uppercase;
+    justify-content: center;
+}
+
+#header {
+    background-color: #ccd;
+    margin: -1em -1em -1em -1em;
+    padding: 2em;
+}
+
+.intro {
+    font-size: 120%;
+    line-height: 1.7;
+}
+
+.grid {
+    background: #eee;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    text-align: center;   
+}
+
+#section-a{
+    padding: 2rem;
+    display: flex;
+    background-color: white;
+    margin-left: -1rem;
+    margin-right: -1rem;
+
+}
+
+#lists{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: left;
+
+}
+#lists ul{
+    list-style-type: square;
+}
+
+#italics {
+    font-family: cursive;
+    font-size: 160%;
+    justify-content: center;
+}
+
+#lists {
+    line-height: 2;
+    font-size: 120%;
+}
+
+#lasse {
+    height:60%;
+    width: 60%;
+    border: 1px solid #aaa;
+}
+#img-caption {
+    font-style: italic;
+    font-size: 110%;
+}
+.caption {
+    font-style: italic;
+    font-size: 110%;
+}
+
+
+.font {
+    text-decoration: underline;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+}
+.image2 {
+    display: grid;
+    padding: 2em;
+    justify-content: center;    
+    background-color: #eee;
+}
+
+#footer {
+display: inline-block;
+flex-direction: row;
+text-align: center;
+width: 104%;
+border: 1px solid #666;
+margin: -1em;
+background-color: #aaa
+}
