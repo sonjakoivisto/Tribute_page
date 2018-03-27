@@ -12,6 +12,11 @@ h2 {
     padding: 2em;
 }
 
+main{
+    
+    overflow-x: hidden;
+}
+
 .intro {
     font-size: 120%;
     line-height: 1.7;
@@ -32,6 +37,10 @@ h2 {
     margin-left: -1rem;
     margin-right: -1rem;
 
+}
+#videomunchen {
+    min-width: 70vw;
+    min-height: 45vw;
 }
 
 #lists{
@@ -59,8 +68,10 @@ h2 {
     height:60%;
     width: 60%;
     border: 1px solid #aaa;
-    max-width: 1024px;
-    max-height: 624px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
 }
 #img-caption {
     font-style: italic;
@@ -81,10 +92,10 @@ h2 {
     font-size: 1.2em;
 }
 .image2 {
-    display: grid;
-    padding: 2em;
-    justify-content: center;    
+    padding: 2rem;  
     background-color: #eee;
+    text-align: center;
+    background: #ccc;
 }
 
 #footer {
@@ -94,5 +105,31 @@ text-align: center;
 width: 104%;
 border: 1px solid #666;
 margin: -1em;
-background-color: #aaa
+background-color: #aaa;
+}
+
+@media (max-width: 768px){
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    max-width: 100vw;
+    overflow-wrap: auto;
+    margin: 1em;
+    overflow-x: hidden;
+}
+#lists {
+    display: flex;
+    flex-direction: column;
+}
+
+#video {
+    min-width: auto;
+    min-height: auto;
+
+}
+
+
+
 }
