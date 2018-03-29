@@ -1,1 +1,31 @@
-<h1> Tribute Page </h1>
+<!DOCTYPE html>
+<link href="css/style.css">
+
+<html>
+<main id="main">
+<h2 id="title"> Lasse Virén </h2>
+
+
+<div id="img-div">
+    <img id="image" src="http://www.iltalehti.fi/yleisurheilu/2015071320001107_yl.shtml/"
+    alt="Virén celebrating a win"/>
+    <p id="img-caption"> Virén celebrating fresh world record in 10 000 meters after a legendary run in 1972</p> 
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</main>
+</html>

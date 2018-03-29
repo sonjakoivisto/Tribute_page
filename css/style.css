@@ -1,0 +1,134 @@
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 250%;
+    color: black;
+    text-transform: uppercase;
+    justify-content: center;
+}
+
+#header {
+    background-color: #ccd;
+    margin: -1em -1em -1em -1em;
+    padding: 2em;
+}
+
+main{
+    
+    overflow-x: hidden;
+}
+
+.intro {
+    font-size: 120%;
+    line-height: 1.7;
+}
+
+.grid {
+    background: #eee;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    text-align: center;   
+}
+
+#section-a{
+    padding: 2rem;
+    display: flex;
+    background-color: white;
+    margin-left: -1rem;
+    margin-right: -1rem;
+
+}
+#videomunchen {
+    min-width: 70vw;
+    min-height: 45vw;
+}
+
+#lists{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: left;
+
+}
+#lists ul{
+    list-style-type: square;
+}
+
+#italics {
+    font-family: cursive;
+    font-size: 160%;
+    justify-content: center;
+}
+
+#lists {
+    line-height: 2;
+    font-size: 120%;
+}
+
+#image {
+    height:60%;
+    width: 60%;
+    border: 1px solid #aaa;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+#img-caption {
+    font-style: italic;
+    font-size: 110%;
+}
+.caption {
+    font-style: italic;
+    font-size: 110%;
+}
+
+#more {
+    font-size: 120%;
+}
+
+.font {
+    text-decoration: underline;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+}
+.image2 {
+    padding: 2rem;  
+    background-color: #eee;
+    text-align: center;
+    background: #ccc;
+}
+
+#footer {
+display: inline-block;
+flex-direction: row;
+text-align: center;
+width: 104%;
+border: 1px solid #666;
+margin: -1em;
+background-color: #aaa;
+}
+
+@media (max-width: 768px){
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    max-width: 100vw;
+    overflow-wrap: auto;
+    overflow-x: hidden;
+}
+#lists {
+    display: flex;
+    flex-direction: column;
+}
+
+#video {
+    min-width: auto;
+    min-height: auto;
+
+}
+
+
+
+}
